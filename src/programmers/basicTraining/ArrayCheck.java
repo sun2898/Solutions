@@ -1,4 +1,4 @@
-package programmers;
+package programmers.basicTraining;
 
 import java.util.Scanner;
 
