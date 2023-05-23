@@ -2,7 +2,7 @@ package programmers.basicTraining;
 
 import java.util.Arrays;
 
-public class 배열_만들기3 {
+public class 배열_만들기_3 {
 	
 	public static void main(String[] args) {
 		
