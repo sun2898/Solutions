@@ -17,5 +17,7 @@ public class 배열_뒤집기 {
 		Collections.reverse(list);
 		
 		int[] answer = list.stream().mapToInt(a -> a).toArray();
+		
+		System.out.println(Arrays.toString(answer));
 	}
 }

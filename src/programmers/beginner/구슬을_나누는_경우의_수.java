@@ -1,7 +1,5 @@
 package programmers.beginner;
 
-import java.math.BigInteger;
-
 public class 구슬을_나누는_경우의_수 {
 
 	public static void main(String[] args) {

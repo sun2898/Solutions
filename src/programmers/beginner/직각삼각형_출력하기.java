@@ -16,6 +16,7 @@ public class 직각삼각형_출력하기 {
 			System.out.println();
 		}
 		
+		sc.close();
 				
 	}
 }

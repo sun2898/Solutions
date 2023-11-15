@@ -1,6 +1,7 @@
 package programmers.beginner;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class 짝수는_싫어요 {
@@ -20,7 +21,7 @@ public class 짝수는_싫어요 {
 		
 		int[] answer = list.stream().mapToInt(a -> a).toArray();
 		
-		
+		System.out.println(Arrays.toString(answer));
 	}
 	
 	

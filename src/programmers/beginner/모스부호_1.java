@@ -1,7 +1,5 @@
 package programmers.beginner;
 
-import java.util.Arrays;
-
 public class 모스부호_1 {
 
 	public static void main(String[] args) {

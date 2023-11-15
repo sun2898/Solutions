@@ -12,7 +12,7 @@ public class OX_QUIZ {
 			String[] cal = quiz[i].split(" ");
 			
 			int a = Integer.parseInt(cal[0]);
-			String str = cal[1];
+			//String str = cal[1];
 			int b = Integer.parseInt(cal[2]);
 			int result = Integer.parseInt(cal[4]);
 			

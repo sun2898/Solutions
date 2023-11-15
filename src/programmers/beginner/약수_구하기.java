@@ -1,6 +1,7 @@
 package programmers.beginner;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class 약수_구하기 {
@@ -19,5 +20,6 @@ public class 약수_구하기 {
 		
 		int[] answer = list.stream().mapToInt(a -> a).toArray();
 		
+		System.out.println(Arrays.toString(answer));
 	}
 }

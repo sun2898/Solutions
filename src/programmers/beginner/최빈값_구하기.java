@@ -2,7 +2,6 @@ package programmers.beginner;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class 최빈값_구하기 {
@@ -14,7 +13,7 @@ public class 최빈값_구하기 {
 		
 		List<Integer> list = new ArrayList<>();
 		
-		for(int i = 0, n = 0, m = 0;  i < array.length-1; i++) {
+		for(int i = 0, n = 0; i < array.length-1; i++) {
 			if(array[i]==array[i+1]) {
 				n++;
 				list.add(n+1);
@@ -39,8 +38,4 @@ public class 최빈값_구하기 {
 		
 	}
 
-	private static List<Integer> List(List<Integer> subList) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

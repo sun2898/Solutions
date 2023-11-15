@@ -8,9 +8,9 @@ import java.util.stream.Collectors;
 public class 신고_결과_받기 {
 
 	public static void main(String[] args) {
-		String[] id_list = {"muzi", "frodo", "apeach", "neo"};
+		//String[] id_list = {"muzi", "frodo", "apeach", "neo"};
 		String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"}; 
-		int k = 2;
+		//int k = 2;
 		
 		List<String> list = Arrays.stream(report).distinct().collect(Collectors.toList());
 		
